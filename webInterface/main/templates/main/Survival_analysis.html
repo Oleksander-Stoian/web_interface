@@ -1,0 +1,12 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Network Issue Analysis{% endblock %}
+
+{% block body %}
+<div class="container-fluid pt-4 px-4">
+        <div class="bg-secondary text-center rounded p-4">
+          <h2>Графік аналізу виживання для компонентів у мережі</h2>
+          <img src="data:image/png;base64,{{ graphic }}" alt="Survival Analysis Graph" class="img-fluid">
+        </div>
+</div>
+{% endblock %}
